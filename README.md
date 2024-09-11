@@ -8,11 +8,9 @@ Tested on:
 PyTorch == 1.13.1;
 python == 3.8;
 CUDA == 11.7
-
 ```
 pip install -r requirements.txt
 ```
-
 ```
 
 # PointNet++
