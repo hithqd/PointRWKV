@@ -24,8 +24,6 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 | Classification | ScanObjectNN | 92.88% | [model](https://drive.google.com/file/d/1DQx_5t9DNSIT11zLh1LZWJ5I3zgDXfmM/view?usp=sharing) | 93.05% | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/scan_objbg_pretrain.pth) |
 | Part Segmentation | ShapeNetPart | - | - | 90.26% mIoU | [model](https://drive.google.com/file/d/1hQnB8uGzFGXUWXzM9ihjobIE-O9h9c2v/view?usp=sharing) |
 
-## Quantitative Results
-
 <div  align="center">    
  <img src="../main/assets/flops.png" width = "488"  align=center />
 </div>
