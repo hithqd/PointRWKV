@@ -135,7 +135,7 @@ If you find this repository useful in your research, please consider giving a st
 ```bibtex
 @article{he2024pointrwkv,
   title={PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning},
-  author={He, Qingdong and Zhang, Jiangning and Peng, Jinlong and He, Haoyang and Wang, Yabiao and Wang, Chengjie},
+  author={He, Qingdong and Zhang, Jiangning and Peng, Jinlong and He, Haoyang and Li, Xiangtai and Wang, Yabiao and Wang, Chengjie},
   journal={arXiv preprint arXiv:2405.15214},
   year={2024}
 }
