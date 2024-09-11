@@ -3,7 +3,7 @@
 ## Method
 ![image](../main/assets/architecture.png)  
 
-## 🎒 1. Requirements
+## Requirements
 Tested on:
 PyTorch == 1.13.1;
 python == 3.8;
