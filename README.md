@@ -21,7 +21,6 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 ```
 
 ## Quantitative Results
-![image](../main/assets/flops.png)
 
 <div  align="center">    
  <img src="../main/assets/flops.png" width = "688"  align=center />
