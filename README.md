@@ -23,6 +23,10 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 ## Quantitative Results
 ![image](../main/assets/flops.png)
 
+<div  align="center">    
+ <img src="../main/assets/flops.png" width = "888"  align=center />
+</div>
+
 | Task | Dataset | Acc.(Scratch) | Download (Scratch) | Acc.(pretrain) | Download (Finetune) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Pre-training | ShapeNet |                                                             | - | [model](https://drive.google.com/file/d/1QXB1msBljSOPJhx5sGYpueOdCrY0yaCO/view?usp=sharing) |
