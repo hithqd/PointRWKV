@@ -26,7 +26,7 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 | Task | Dataset | Acc.(Scratch) | Download (Scratch) | Acc.(pretrain) | Download (Finetune) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Pre-training | ShapeNet |                                                             | - | [model](https://drive.google.com/file/d/1QXB1msBljSOPJhx5sGYpueOdCrY0yaCO/view?usp=sharing) |
-| Classification | ModelNet40 | 92.4% | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/modelnet_scratch.pth) | 93.6% | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/modelnet_pretrain.pth) |
+| Classification | ModelNet40 | 94.66% | [model](https://drive.google.com/file/d/1iMN-iAGjKWAUpAoIOqaS9e_CI_wk5nhE/view?usp=sharing) | 96.16% | [model](https://drive.google.com/file/d/11iBDSwdTIpHldUGWIsFp9orbCwNf69fB/view?usp=sharing) |
 | Classification | ScanObjectNN | 88.30% | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/scan_objbg_scratch.pth) | 90.71% | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/scan_objbg_pretrain.pth) |
 | Part Segmentation | ShapeNetPart | 85.8% mIoU | - | 86.0% mIoU | [model](https://github.com/LMD0311/PointMamba/releases/download/ckpts/part_seg_pretrain.pth) |
 
