@@ -32,3 +32,18 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 
 ## Qualitative Results
 ![image](../main/assets/vis.png)
+
+## Acknowledgement
+
+This project is based on Point-BERT ([paper](https://arxiv.org/abs/2111.14819), [code](https://github.com/lulutang0608/Point-BERT?tab=readme-ov-file)), Point-MAE ([paper](https://arxiv.org/abs/2203.06604), [code](https://github.com/Pang-Yatian/Point-MAE)), PointM2AE ([paper](https://arxiv.org/abs/2205.14401), [code](https://github.com/ZrrSkywalker/Point-M2AE)). Thanks for their wonderful works.
+
+## Citation
+
+If you find this repository useful in your research, please consider giving a star ⭐ and a citation
+```bibtex
+@article{he2024pointrwkv,
+  title={PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning},
+  author={He, Qingdong and Zhang, Jiangning and Peng, Jinlong and He, Haoyang and Wang, Yabiao and Wang, Chengjie},
+  journal={arXiv preprint arXiv:2405.15214},
+  year={2024}
+}
