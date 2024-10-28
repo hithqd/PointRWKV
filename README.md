@@ -4,6 +4,10 @@ Transformers have revolutionized the point cloud learning task, but the quadrati
 ## Method
 ![image](../main/assets/architecture.png)  
 
+## :ballot_box_with_check: TODO List
+- [ ] Release the training code
+
+
 ## Requirements
 
 ```
