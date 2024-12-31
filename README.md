@@ -1,4 +1,14 @@
 # [AAAI2025]PointRWKV:Efficient RWKV-Like Model for Hierarchical Point Cloud Learning
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <a href="https://arxiv.org/abs/2405.15214" style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/arXiv-2411.10499-red?style=flat&logo=arXiv&logoColor=red' alt='arxiv'>
+  </a>
+  <a href='https://hithqd.github.io/projects/PointRWKV/' style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/Webpage-Project-silver?style=flat&logo=&logoColor=orange' alt='webpage'>
+  </a>
+</div>
+
 ## Abstract
 Transformers have revolutionized the point cloud learning task, but the quadratic complexity hinders its extension to long sequences. This puts a burden on limited computational resources. The recent advent of RWKV, a fresh breed of deep sequence models, has shown immense potential for sequence modeling in NLP tasks. In this work, we present PointRWKV, a new model of linear complexity derived from the RWKV model in the NLP field with the necessary adaptation for 3D point cloud learning tasks. Specifically, taking the embedded point patches as input, we first propose to explore the global processing capabilities within PointRWKV blocks using modified multi-headed matrix-valued states and a dynamic attention recurrence mechanism. To extract local geometric features simultaneously, we design a parallel branch to encode the point cloud efficiently in a fixed radius near-neighbors graph with a graph stabilizer. Furthermore, we design PointRWKV as a multi-scale framework for hierarchical feature learning of 3D point clouds, facilitating various downstream tasks. Extensive experiments on different point cloud learning tasks show our proposed PointRWKV outperforms the transformer- and mamba-based counterparts, while significantly saving about 42\% FLOPs, demonstrating the potential option for constructing foundational 3D models. 
 ## Method
