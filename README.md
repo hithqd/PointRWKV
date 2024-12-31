@@ -122,6 +122,14 @@ Download: Please download the data from [Point-BERT repo](https://github.com/lul
 
 Download: Please download the data from [here](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip). 
 
+## Train
+We provide `./scripts/dist_train.sh` that is able to train a model with the specified config file. Run it with:
+```
+sh ./scripts/dist_train.sh 1 --cfg_file ./PATH/TO/YAML --workers 4
+```
+For more options, see ./scripts/dist_train.sh.
+
+
 ## Qualitative Results
 ![image](../main/assets/vis.png)
 
