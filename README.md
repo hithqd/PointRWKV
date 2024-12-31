@@ -129,6 +129,11 @@ sh ./scripts/dist_train.sh 1 --cfg_file ./PATH/TO/YAML --workers 4
 ```
 For more options, see ./scripts/dist_train.sh.
 
+## Inference with Pre-trained Models
+Refer to `./scripts/dist_test.sh` that is able to test with a pretrained model. Run it with:
+```
+sh ./scripts/dist_test.sh 1 --cfg_file ./cfgs/m3detr_models/m3detr_waymo_1500.yaml --workers 4 --ckpt /path/to/checkpoint_file --eval_tag test_out --batch_size 8 --save_to_file [--other-options]
+```
 
 ## Qualitative Results
 ![image](../main/assets/vis.png)
