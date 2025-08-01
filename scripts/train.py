@@ -14,8 +14,8 @@ from pcprocess.config import cfg, cfg_from_list, cfg_from_yaml_file, log_config_
 from pcprocess.datasets import build_dataloader
 from pcprocess.models import build_network, model_fn_decorator
 from pcprocess.utils import common_utils
-from train_utils.optimization import build_optimizer, build_scheduler
-from train_utils.train_utils import train_model
+from tools.train_utils.optimization import build_optimizer, build_scheduler
+from tools.train_utils.train_utils import train_model
 
 
 def parse_config():
