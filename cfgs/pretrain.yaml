@@ -1,0 +1,36 @@
+# PointRWKV Pre-training Configuration
+# Pre-trains on ShapeNet using Masked Autoencoding
+
+model_name: PointRWKVPretrain
+
+# Model architecture
+model:
+  embed_dim: 384
+  depth: [4, 4, 4]
+  num_heads: 8
+  num_points: [2048, 1024, 512]
+  group_sizes: [32, 32, 32]
+  k_neighbors: [16, 8, 8]
+  graph_iter: 3
+  drop_path_rate: 0.1
+  mask_ratio: 0.8
+  decoder_dim: 192
+  decoder_depth: 4
+  decoder_heads: 4
+  loss_type: cdl2
+
+# Dataset
+dataset:
+  NAME: ShapeNet
+  DATA_PATH: ./data/ShapeNet55-34/ShapeNet-55
+  PC_PATH: ./data/ShapeNet55-34/shapenet_pc
+  N_POINTS: 8192
+  npoints: 2048
+
+# Training
+epochs: 300
+batch_size: 128
+lr: 1e-3
+weight_decay: 0.05
+warmup_epochs: 10
+save_freq: 50

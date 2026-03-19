@@ -1,0 +1,35 @@
+# PointRWKV Classification on ModelNet40
+
+model_name: PointRWKVCls
+
+# Model architecture
+model:
+  embed_dim: 384
+  depth: [4, 4, 4]
+  num_heads: 8
+  num_points: [2048, 1024, 512]
+  group_sizes: [32, 32, 32]
+  k_neighbors: [16, 8, 8]
+  graph_iter: 3
+  drop_path_rate: 0.1
+  num_classes: 40
+
+# Label smoothing
+label_smoothing: 0.2
+
+# Dataset
+dataset:
+  NAME: ModelNet
+  DATA_PATH: ./data/ModelNet/modelnet40_normal_resampled
+  N_POINTS: 8192
+  USE_NORMALS: false
+  NUM_CATEGORY: 40
+
+# Training
+epochs: 300
+batch_size: 32
+lr: 3e-4
+weight_decay: 0.05
+warmup_epochs: 10
+val_freq: 1
+save_freq: 50
