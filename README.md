@@ -240,10 +240,13 @@ This project builds upon [Point-BERT](https://github.com/lulutang0608/Point-BERT
 If you find this repository useful, please consider giving a star and a citation:
 
 ```bibtex
-@article{he2024pointrwkv,
-  title={PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning},
+@inproceedings{he2025pointrwkv,
+  title={Pointrwkv: Efficient rwkv-like model for hierarchical point cloud learning},
   author={He, Qingdong and Zhang, Jiangning and Peng, Jinlong and He, Haoyang and Li, Xiangtai and Wang, Yabiao and Wang, Chengjie},
-  journal={arXiv preprint arXiv:2405.15214},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={3},
+  pages={3410--3418},
+  year={2025}
 }
 ```
