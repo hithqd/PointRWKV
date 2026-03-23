@@ -198,9 +198,6 @@ PointRWKV/
 │   ├── config.py                  # YAML config loader
 │   ├── misc.py                    # FPS, KNN, point cloud utils
 │   └── checkpoint.py              # Checkpoint save/load
-├── extensions/                    # CUDA extensions
-│   ├── chamfer_dist/              # Chamfer Distance
-│   └── emd/                       # Earth Mover's Distance
 ├── scripts/                       # Shell scripts
 │   ├── dist_train.sh              # Distributed training
 │   └── dist_test.sh               # Distributed testing
@@ -240,13 +237,10 @@ This project builds upon [Point-BERT](https://github.com/lulutang0608/Point-BERT
 If you find this repository useful, please consider giving a star and a citation:
 
 ```bibtex
-@inproceedings{he2025pointrwkv,
-  title={Pointrwkv: Efficient rwkv-like model for hierarchical point cloud learning},
+@article{he2024pointrwkv,
+  title={PointRWKV: Efficient RWKV-Like Model for Hierarchical Point Cloud Learning},
   author={He, Qingdong and Zhang, Jiangning and Peng, Jinlong and He, Haoyang and Li, Xiangtai and Wang, Yabiao and Wang, Chengjie},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={39},
-  number={3},
-  pages={3410--3418},
-  year={2025}
+  journal={arXiv preprint arXiv:2405.15214},
+  year={2024}
 }
 ```
